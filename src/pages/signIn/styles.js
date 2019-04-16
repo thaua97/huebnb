@@ -18,12 +18,12 @@ const Input = styled.TextInput`
     borderRadius: 10px;
     backgroundColor: #ffffff;
     alignSelf: stretch;
-    marginBootom: 15px;
+    marginBottom: 15px;
     marginHorizontal: 20px;
     fontSize: 16px;
 `
 
-const ErrorMessage = styled.text`
+const ErrorMessage = styled.Text`
     textAlign: center;
     color: #ce2009;
     fontSize: 16px;
@@ -32,7 +32,7 @@ const ErrorMessage = styled.text`
 
 `
 
-const Button = styled.ToutchableHighlight`
+const Button = styled.TouchableHighlight`
     padding: 20px;
     borderRadius: 5px;
     backgroundColor: #b2ff93;
@@ -48,7 +48,7 @@ const ButtonText = styled.Text`
     textAlign: center;
 `
 
-const SignUpLink = styled.ToutchableHighlight`
+const SignUpLink = styled.TouchableHighlight`
     padding: 10px;
     marginTop: 20px;
 `
@@ -59,4 +59,13 @@ const SignUpLinkText = styled.Text`
     textAlign: center;
 `
 
-export { Container, Logo, Input, ErrorMessage, Button, ButtonText, SignUpLink, SignUpLinkText }
+export { 
+    Container, 
+    Logo, 
+    Input, 
+    ErrorMessage, 
+    Button, 
+    ButtonText, 
+    SignUpLink, 
+    SignUpLinkText 
+}
